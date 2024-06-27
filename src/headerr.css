@@ -1,0 +1,13 @@
+* {
+padding: 0px;
+margin: 0px;
+}
+
+h1{
+    background-color: rgb(255,255,102);
+    color: black;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    height: 50px;
+}
