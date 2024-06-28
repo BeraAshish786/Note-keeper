@@ -1,0 +1,23 @@
+.notee{
+    background-color: rgb(219, 129, 10);
+    box-shadow: grey;
+    margin: 15px;
+    padding: 6px;
+    height: 100px;
+    width: 250px;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+
+}
+ .notee h1{
+    margin-bottom: 6px; 
+    font-size: 1.1em;
+ }
+
+ .notee p{
+    margin-bottom: 6px;
+    font-size: 1.1em;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+ }

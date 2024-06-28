@@ -1,10 +1,17 @@
 import React from 'react'
 import "./footer.css"
 
+
+
+
 const Footer = () => {
+    const Year = new Date();
+    const currentyear = Year.getFullYear()
+    console.log(currentyear,"currentyear")
+
   return (
     <div>
-    <footer>AshishBera Copyright@2024</footer>
+    <footer className='footer'>AshishBera Copyright@${currentyear}</footer>
       
     </div>
   )

@@ -1,6 +1,16 @@
-footer {
-    align-items: center;
-    position: absolute;
-    color: black;
-    bottom: 20px;
-}
+.footer {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f1f1f1; /* Optional: background color */
+    padding: 10px;
+    text-align: center;
+    /* width: auto; Adjust as needed */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional: shadow for better visibility */
+  }
+  
+  .footer p {
+    margin: 0;
+    padding: 0;
+  }
